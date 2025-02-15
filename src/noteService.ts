@@ -1,7 +1,6 @@
 import axios from 'axios';
 import { Note, NewNote } from './types';
 
-
 const baseUrl = 'http://localhost:3001/api/notes';
 
 export const getAllNotes = () => {
